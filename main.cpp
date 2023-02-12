@@ -1,5 +1,10 @@
 #include <iostream>
 
+
+void SayHi(std::string name)
+{
+	std::cout << "Hi " << name << "\n";
+}
 int main()
 {
 	
